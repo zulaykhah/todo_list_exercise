@@ -1,0 +1,63 @@
+* {
+    font-family: cursive;
+    background-color: aqua;
+    font-size: 20px;
+   
+  }
+  
+  .todo_container{
+    display: block;
+      width: 500px;
+      margin: 10px auto 100px;
+      background-color: #fff;
+      padding: 0px 10px 10px 10px;
+      border-radius: 10px;
+  }
+  #newItem{
+    width: 460px;
+  }
+  form {
+    padding-top: 5px;
+  }
+  label {
+    font-size: 1em;
+    font-weight: 500px;
+    padding-right: 10px;
+    
+  }
+  
+  button{
+    background-color: blueviolet;
+    border: 2px solid;
+      color: #fff;
+    padding: 8px;
+    margin-top: -3px;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .list_container {
+    border-radius: 10px;
+    margin: 20px;
+    font-family: cursive;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    padding-left: 400px ;
+    align-items: center;
+  }
+  
+  h1{
+    font-size: 45px;
+    margin: 25px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: green;
+  }
+  input{
+    margin: 10px;
+    padding-right: 50px;
+  }
