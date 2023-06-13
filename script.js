@@ -19,7 +19,7 @@ addButton.addEventListener("click", () => {
 todoListItems.prepend(newItem)
 
 // //Function to delete new item
-deleteButton.addEventListener('click', function(e){
+deleteButton.addEventListener('click', function(item){
     let newItem = deleteButton.parentNode;
     newItem.parentNode.removeChild(newItem);
     })
@@ -76,6 +76,6 @@ localStorage.setItem("value", "newItem");
 newItem = document.createElement('div'); 
 
  //To remove the item
- newItem.addEventListener('lclick', function(){
+ newItem.addEventListener('click', function(){
     newItem.style.textDecoration = "none";
 })
