@@ -1,6 +1,6 @@
 // Create a simple todo list that has the following functionalities
 let todoList  = document.getElementById('todo_list');
-let addItem = document.etElementById('addNewItem');
+let addItem = document.getElementById('addNewItem');
 let buttonElement = document.getElementsByTageName("button");
 console.log(buttonElement);
 

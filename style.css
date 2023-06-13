@@ -1,6 +1,6 @@
 * {
     font-family: cursive;
-    background-color: aqua;
+    background-color: rgb(100, 100, 237);
     font-size: 20px;
    
   }
@@ -27,7 +27,7 @@
   }
   
   button{
-    background-color: blueviolet;
+    background-color: lightblue;
     border: 2px solid;
       color: #fff;
     padding: 8px;
@@ -55,7 +55,7 @@
     margin: 25px;
     padding-top: 20px;
     text-align: center;
-    background-color: green;
+    background-color: rgb(163, 234, 243);
   }
   input{
     margin: 10px;
